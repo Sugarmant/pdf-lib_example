@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "webpack --config build/webpack.prod.config.js --mode production",
+    "dev": "webpack --watch --config build/webpack.dev.config.js --mode development"
+  },
+  "dependencies": {
+    "pdf-fontkit": "^1.8.9",
+    "pdf-lib": "^1.17.1",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
